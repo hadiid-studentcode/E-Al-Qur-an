@@ -1,0 +1,20 @@
+
+.keterangan{
+	color: #708198;
+}
+
+.animasi {
+    -webkit-transition:all .5s ease-out;
+    -moz-transition:all .5s ease-out;
+    -ms-transition:all .5s ease-out;
+    -o-transition:all .5s ease-out;
+    transition:all .5s ease-out;
+}
+
+.animasi:hover {
+    -webkit-transform:translate(0px,5px);
+    -moz-transform:translate(0px,-5px);
+    -ms-transform:translate(0px,-5px);
+    -o-transform:translate(0px,5px);
+    transform:translate(0px,-5px);
+}
